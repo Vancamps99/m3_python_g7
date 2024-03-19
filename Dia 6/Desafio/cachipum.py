@@ -28,3 +28,5 @@ elif jugador1 == "Tijeras" and computador == "Papel" :
     print(f"Elejiste {jugador1} y la computadora eligio {computador}, Ganaste")
 else :
     print(f"Ambos elijieron la opción {jugador1}, es un Empate")
+
+#desafio
