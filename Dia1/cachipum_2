@@ -1,0 +1,24 @@
+import random
+
+print("Vamos a jugar al cachipun. Para ello deberás elegir una de las siguientes opciones: Piedra, Papel o Tijeras")
+
+opciones = ['Piedra', 'Papel', 'Tijeras']
+jugador1 = input(f"Elige {opciones}\n")
+
+# Validar la opción ingresada por el jugador
+if jugador1 in opciones:
+    # Elegir aleatoriamente la opción para la computadora
+    computador = random.choice(opciones)
+    print(f"La computadora eligió: {computador}")
+
+    # Determinar el resultado del juego
+    if jugador1 == computador:
+        print("¡Es un empate!")
+    elif (jugador1 == "Piedra" and computador == "Tijeras") or \
+         (jugador1 == "Papel" and computador == "Piedra") or \
+         (jugador1 == "Tijeras" and computador == "Papel"):
+        print("¡Ganaste!")
+    else:
+        print("¡Perdiste!")
+else:
+    print(f"La opción ingresada ({jugador1}) no es válida. Por favor, elige entre {opciones}")
