@@ -1,27 +1,31 @@
-"""Condicionales"""
+"""
+CONDICIONAL IF    
+Si se cumple la condicion, entonces se ejecuta el codigo
 
-"""   IF  
-Si se cumple la condicion, entonces se ejecuta el codigo 
-
+if condicion:
+    # Codigo a ejecutar si es verdadero
+elif otra_condicion:
+    # Codigo a ejecutar si la primera no se cumple
+else:
+    # Codigo por defecto si no se ejecutan otros codigos
 """
 
-"""
-Si este  print esta afuera del bloque if solo se mostrara fin del programa si esta dentro
-mostrara eres mayor de edad y fin del programa en sucesion
-
-"""
-edad=int(input("ingrese su edad "))
-if edad==18:
+edad = int(input("Ingrese su edad: \n"))
+if edad == 18:
     print("Tienes 18 años")
-elif edad>18:
-    print("Eres mayor de edad ")
-else:    
-    print("eres menor de edad") #ojo con la alinacion o espacio que se le da al if y al else espaciado de 4 recomienda
-    
-if edad==0:
-    print("la edad es cero")
-elif edad%2==0:
+elif edad > 18:
+    print("Eres mayor de edad")
+else:
+    print("Eres menor de edad")
+
+print("\n")
+
+if edad == 0:
+    print("La edad es cero")
+elif edad % 2 == 0:
     print("La edad es par")
-else edad%2!=0:
-    print("la edad es impar")
-    
+else:
+    print("La edad es impar")    
+
+print("\n")
+print("Fin del programa")    
