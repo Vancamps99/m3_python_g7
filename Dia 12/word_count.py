@@ -1,5 +1,6 @@
 with open("lorem_ipsum.txt","r") as file:
     lorem_ipsum=file.read()
+#¿comando para anexar tipos de datos cuales aguanta o que tipo de formato puede anexar?
 
 print(lorem_ipsum)    
 # Contar caracteres y palabras distintas 
