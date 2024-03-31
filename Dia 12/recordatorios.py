@@ -23,7 +23,7 @@ recordatorios.append(['2021-12-24', '22:00', 'Cena de Navidad'])
 recordatorios.append(['2021-12-31', '22:00', 'Cena de Año Nuevo'])  
 print("Añadiendo ultimos eventos a el recordatorio ",recordatorios)#mostrara una lista desordenada
 print("\n")
-recordatorios.sort()#ordeno por fecha pero ejercitar al mover elemntos con pop
+recordatorios.sort()#ordeno por fecha pero debo ejercitar al mover elemntos con pop e insert
 # Imprimir el calendario actualizado y final
 print("Calendario Actualizado y final:", recordatorios)
 
