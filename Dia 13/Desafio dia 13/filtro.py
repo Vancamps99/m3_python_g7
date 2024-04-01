@@ -42,6 +42,9 @@ def filtrar_productos(precios, umbral, tipo):
 umbral = int(input("Ingrese el umbral de precio: "))
 tipo = input("Ingrese 'mayor' o 'menor' para filtrar productos: ").lower()
 
+# Llamar la función
 productos_filtrados = filtrar_productos(precios, umbral, tipo)
 print(productos_filtrados)
 
+#era con argumentos . 
+#validador tambien falto
